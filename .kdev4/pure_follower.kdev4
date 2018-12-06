@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1a\x00p\x00u\x00r\x00e\x00_\x00f\x00o\x00l\x00l\x00o\x00w\x00e\x00r)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=../
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/yang/ceshi_ws/build/
+Build Type=
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=-DCATKIN_DEVEL_PREFIX=../devel -DCMAKE_INSTALL_PREFIX=../install\s
+Install Directory=file:///home/yang/ceshi_ws/install
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=pure_pursuit_qsl
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1a\x00p\x00u\x00r\x00e\x00_\x00f\x00o\x00l\x00l\x00o\x00w\x00e\x00r\x00\x00\x00 \x00p\x00u\x00r\x00e\x00_\x00p\x00u\x00r\x00s\x00u\x00i\x00t\x00_\x00q\x00s\x00l)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/yang/ceshi_ws/src/pure_follower/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=pure_follower,pure_pursuit_qsl
+Use External Terminal=false
+Working Directory=
+isExecutable=false
